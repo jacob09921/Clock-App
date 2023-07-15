@@ -34,6 +34,7 @@ async function implement() {
 
     }
     catch (e) {
+        location.reload()
         console.log(e)
         console.log("Error")
     }
