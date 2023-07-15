@@ -34,7 +34,6 @@ async function implement() {
 
     }
     catch (e) {
-        location.reload()
         console.log(e)
         console.log("Error")
     }
@@ -86,16 +85,7 @@ function dealWithSeasons(timeResult) {
     }
 }
 
-// function locate(data) {
-//     let num = 0
-//     for (let i = 0; i < data.length; i++) {
-//         num++
-//         if (data[i] === '/') {
-//             return data.slice(num).toUpperCase()
 
-//         }
-//     }
-// }
 
 
 function tConv24(time24) {
@@ -109,22 +99,4 @@ function tConv24(time24) {
 
 
 
-
-// const hello = async (num) => {
-//     if (num > 10) {
-//         return true
-//     }
-//     else return false
-// }
-
-// const force = async () => {
-//     try {
-//         console.log(await hello('no'))
-//     }
-//     catch (e) {
-//         console.log(e)
-//     }
-// }
-
-// force()
 
