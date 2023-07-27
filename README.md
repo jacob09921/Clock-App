@@ -1,1 +1,3 @@
 # Clock-App
+
+#ABOUT THE PROJECT
